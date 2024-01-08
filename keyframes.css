@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #5e0878, #085078, #4ca59b, #1fa194 );
+    background-size: 400% 400%;
+    /* animation: ; */
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2{
+   text-transform: uppercase;
+   letter-spacing: 4px; 
+   margin-top: 1.5rem;
+}
+
+.social-media{
+    display: flex;
+    margin-top: 1rem;
+    gap: 10px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 1rem 4rem;
+    border: 1px solid #fff;
+    min-width: 4rem;
+
+}

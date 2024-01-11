@@ -23,7 +23,7 @@
     position: absolute;
     cursor: pointer;
     z-index: 9999;
-    transition: 400ms ease-in-out 0;
+    transition: 400ms ease-in-out 0s;
 
 }
 
@@ -96,7 +96,7 @@
    color: #2E1C2B;
    text-transform: uppercase;
    letter-spacing: 4px;
-   font-size: 36px;
+   font-size: 48px;
    font-weight: 900;
 }
 
